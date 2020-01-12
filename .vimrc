@@ -10,6 +10,7 @@ set expandtab                       " On pressing tab, insert 4 spaces
 set showmatch                       " show matching parans
 set hlsearch                        " highlight search
 set incsearch                       " incremental searching
+set pastetoggle=<F10>               " insert in paste mode toggle on with F10
 
 hi Comment      ctermfg=8
 hi NonText      ctermfg=8
