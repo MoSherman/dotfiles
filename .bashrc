@@ -125,7 +125,7 @@ alias mv="mv -i"
 alias rm="rm -ir"
 alias vim="vim -p"
 alias find="find -L -name"
-alias grep="grep --color=alaways"
+alias grep="grep --color=always"
 alias act3="source py3/bin/activate"
 alias gitst="git status"
 alias vpc='expressvpn connect nlam'
