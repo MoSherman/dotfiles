@@ -8,6 +8,7 @@ set shiftwidth=4                    " when indenting with '>', use 4 spaces widt
 set tabstop=4                       " show existing tab with 4 spaces width
 set expandtab                       " On pressing tab, insert 4 spaces
 set showmatch                       " show matching parans
+set matchtime=0                     " do not jump cursor after matching parans
 set hlsearch                        " highlight search
 set incsearch                       " incremental searching
 set pastetoggle=<F10>               " insert in paste mode toggle on with F10
@@ -27,3 +28,4 @@ hi Type         ctermfg=6
 hi Constant     ctermfg=5
 hi Special      ctermfg=5
 hi Search       ctermfg=0 ctermbg=8
+hi MatchParen   ctermfg=0 ctermbg=6 cterm=none

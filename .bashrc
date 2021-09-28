@@ -79,9 +79,9 @@ if [ -x /usr/bin/dircolors ]; then
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
 
-    alias grep='grep --color=auto'
-    alias fgrep='fgrep --color=auto'
-    alias egrep='egrep --color=auto'
+    #alias grep='grep --color=auto'
+    #alias fgrep='fgrep --color=auto'
+    #alias egrep='egrep --color=auto'
 fi
 
 # colored GCC warnings and errors
@@ -128,3 +128,10 @@ alias find="find -L -name"
 alias grep="grep --color=alaways"
 alias act3="source py3/bin/activate"
 alias gitst="git status"
+alias vpc='expressvpn connect nlam'
+alias vpd='expressvpn disconnect'
+alias vpl='expressvpn list'
+
+alias l2c='paste -s -d,'
+alias c2l='tr '\'','\'' '\''\n'\'''
+
